@@ -8,6 +8,9 @@ IRIS Worm is a real-time data graphing component. With straight-forward initiali
 * Built on HTML5 canvas - performant, scalable and fully supported in all major browsers
 * Accessibility - using ARIA alert and aria-live tags, screenreaders can read the worm to users
 
+## Demo
+[Demo on gh-pages](https://gchq.github.io/iris-worm/)
+
 ## Installation
 
 We've packaged up all the dependencies into a minified distribution for you so you just need to include it on your page somehow;
