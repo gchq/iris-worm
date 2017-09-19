@@ -1,0 +1,7 @@
+*.swp
+.idea/
+bower_components/
+node_modules/
+reports/
+mocha.json
+npm-debug.log

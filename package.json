@@ -1,0 +1,42 @@
+{
+  "name": "iris-worm",
+  "version": "1.0.0",
+  "description": "IRIS Worm",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build:dev": "webpack",
+    "build:prod": "NODE_ENV=production webpack -p",
+    "bundle": "npm run build:dev && npm run build:prod",
+    "publish": "npm run bundle && git add dist && git commit -m 'updating dist' && git push",
+    "test": "mocha --opts mocha.config",
+    "test:watch": "mocha --opts mocha.config --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "iris",
+    "worm"
+  ],
+  "author": "GCHQ",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-es2015": "^6.24.0",
+    "chai": "^3.5.0",
+    "html-webpack-plugin": "^2.28.0",
+    "jsdom": "^9.12.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0",
+    "mocha-bamboo-reporter": "^1.1.1",
+    "moment": "^2.17.1",
+    "sinon": "^1.17.7",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
