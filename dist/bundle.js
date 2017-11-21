@@ -171,7 +171,7 @@ var Worm = function () {
     _classCallCheck(this, Worm);
 
     this._rootDiv = div;
-    this._options = _extends({}, Worm.DEFAULT_OPTIONS);
+    this._options = _extends({}, Worm.DEFAULT_OPTIONS, options);
 
     // create canvas and context
     this._canvas = document.createElement('canvas');

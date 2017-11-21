@@ -58,7 +58,7 @@ export default class Worm {
    */
   constructor(div, options = {}) {
     this._rootDiv = div;
-    this._options = Object.assign({}, Worm.DEFAULT_OPTIONS);
+    this._options = Object.assign({}, Worm.DEFAULT_OPTIONS, options);
 
     // create canvas and context
     this._canvas = document.createElement('canvas');
