@@ -35,6 +35,7 @@
     "moment": "^2.24.0",
     "sinon": "^1.17.7",
     "style-loader": "^0.13.2",
+    "terser-webpack-plugin": "^4.2.3",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.14"
